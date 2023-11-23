@@ -19,13 +19,21 @@ o [Git](https://git-scm.com/) instalados no seu computador.
 - Clone o repositório com o seguinte comando no seu terminal .
 
 ```git clone ```
-- Em seguida entre na pasta
+- Em seguida entre nas pastas
 
-```cd desafio-escribo```
+```cd challenge```
+
+```cd lib```
 
 - Execute o projeto
 
-```dart desafio-escribo.dart```
+```dart run desafio_escribo.dart```
+
+## 💻 Testes Unitários
+
+Este projeto inclui testes unitários para as funções principais. Para executar os testes, use o seguinte comando:
+
+```dart run desafio_escribo.dart```
 
 ## 🚀 Tecnologias e ferramentas
 
@@ -36,3 +44,5 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ### Bibliotecas
 - [dart:io](https://api.dart.dev/stable/3.2.0/dart-io/dart-io-library.html) 
+- [test](https://pub.dev/packages/test)
+- [mocktail](https://pub.dev/packages/mocktail)
